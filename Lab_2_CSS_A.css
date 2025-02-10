@@ -1,8 +1,32 @@
+head{
+ background-color: #defaf0;
+}
+
 img{
     width: 400px;
     height: 400px;
 }
 
 body {
-    background-color: rgb(195, 237, 215);
+    background-color: #c3edd7;
+    form{
+        background-color: #defaf0;
+        border-style: outset;
+        border-width: 5px;
+        border-color: #ebfff4;
+
+        input[type=submit]{
+            background-color: aquamarine;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        input:hover{
+            background-color: #ebfff4;
+        }
+
+    }
 }
+

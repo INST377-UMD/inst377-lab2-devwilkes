@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
+        <style>
+           div{
+            margin: 10px;
+            label{
+                font-size: larger;
+            }
+        } 
+        </style>
         <title>Create your Pet Rock!</title>
         <link rel="stylesheet" href="Lab_2_CSS_A.css">
         <h1> Create your Pet Rock!</h1>
@@ -9,11 +17,14 @@
 
     <body>
         <form action="Lab_2_HTML_Submit.html">
-            <label for = "name"> What's it's name? </label>
-            <input type = "text" id = "name"><br>
 
-            <label for = "fav_food"> What's it's favorite food?</label>
-            <input type = "text" id = "fav_food"><br>
+            <div>
+                <label for = "name"> What's it's name? </label>
+                <input type = "text" id = "name" required><br>
+
+                <label for = "fav_food"> What's it's favorite food? </label>
+                <input type = "text" id = "fav_food" required><br>
+            </div>
 
             <label for = "rock_music"> Does it like rock music?</label><br>
             <input type = "radio" id = "yes" name = "yes" value ="yes">
